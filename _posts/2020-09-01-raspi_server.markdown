@@ -73,6 +73,8 @@ The flow is therefore:
 3. If hot, a message is sent via MQTT back to the ESP8266 to turn the fans on
 4. If the temperature exceeds 80C, the LEDs go red and Node Red streams an announcement to google home to warn me the Pi is overheating
 
+![node_red](/images/box_node_red.png)
+
 And that was it, took a couple of hours and the Pi was ready to sit in a cupboard somewhere to continue running all its dockerised functions. 
 
 If I were to do it again, I’d probably pick quieter fans, and I would wire in a power socket, rather than a permanent 1m black cable coming out the back of it.
