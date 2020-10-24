@@ -6,6 +6,7 @@ categories: projects
 ---
 # I decided to build a dedicated enclosure for the raspi running my home server.
 I started with a bare board and graduated to a cheap enclosure with an inbuilt fan from eBay. This worked fine, but once I added an external hard drive for networked attached storage (NAS), I decided to make something a little more robust.
+
 ![Pi_inside](/images/ammo_pi_inside.jpg)
 
 I started with what was described as a .50 cal ammunition box off Amazon, as seemed to fit the dimensions of my 3.5" HDD dock along with the extra length for the Pi and power splitter.
