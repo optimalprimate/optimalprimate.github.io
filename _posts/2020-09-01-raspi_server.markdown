@@ -65,7 +65,7 @@ The LED strip uses the WS2812 controller with 5050 RGB LEDs. What does this mean
 
 ![LED_strip](/images/led_strip.gif)
 
-Finally, I flashed my Arduino code to the ESP8266 fan controller. I could have hardcoded it to automatically start the fans when the temperature sensor onboard went above a certain level, but decided instead to control it via the home automation server actually running on the Pi. 
+Finally, I flashed my Arduino code ([code](https://github.com/optimalprimate/raspi_ammobox_server/blob/main/Server_ammoBox_OTA_LEDs.ino)) to the ESP8266 fan controller. I could have hardcoded it to automatically start the fans when the temperature sensor onboard went above a certain level, but decided instead to control it via the home automation server actually running on the Pi. 
 
 The flow is therefore: 
 1. Raspi CPU Temp published to Node Red every minute
