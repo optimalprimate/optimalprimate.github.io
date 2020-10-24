@@ -24,7 +24,7 @@ I then laid out the parts to work out where everything would go, before clamping
 
 I started with marking out where the fans would go - I wanted the intake somewhere near the Pi, and the exhaust by the warm disk drive. I couldn’t do them at the short ends as the HDD pretty much completely blocked all air flow, so they’re on the sides and I figured offsetting them would prevent air flow just going straight through and not wandering around the components.
 
-![fan_loc](/images/fan loc.jpg)
+![fan_loc](/images/fan_loc.jpg)
 
 A dremel with a cutting disk made easy work of the thin metal and with some filing, I had decent ‘non-jagged’ holes.
 
