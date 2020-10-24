@@ -10,7 +10,7 @@ I started with a bare board and graduated to a cheap enclosure with an inbuilt f
 
 I started with what was described as a .50 cal ammunition box off Amazon, as seemed to fit the dimensions of my 3.5" HDD dock along with the extra length for the Pi and power splitter.
 
-[components](/images/components.png)
+![components](/images/components.png)
 
 I also wanted to keep it cool and in a waterproof metal box, this seemed unlikely. So I added the cheapest PC fans I could find in a slim, 80mm format. 
 
