@@ -25,7 +25,7 @@ The mirror portion should be of the two-way variety. Contrary to popular belief,
 
 So basically, you build a box to hold the monitor, stick the acyclic to it and then have a Pi at the back connected via HDMI.
 
-##The Build
+## The Build
 
 So I started with cutting my acyclic to size for the monitor. The best and cheapest tool I know of to cut straight acyclic is a 'scriber' which is like a hooked blade that you score the plastic with until you can just snap it.
 
@@ -40,7 +40,7 @@ A quick test everything was visible with the 'no signal' splash.
 
 ![mm_test1](/images/mm_screen_test.jpg)
 
-##Woodwork.
+## Woodwork.
 
 I like the idea of wood but have little experience - so this was a good chance to learn.
 
@@ -67,7 +67,7 @@ Finally, I cut a backing board (I spray painted the edges black as was too impat
 
 ![frame_complete](/images/frame_comp.jpg)
 
-##The Backend
+## The Backend
 
 I needed some space behind the monitor so cut out some of the plastic backing with a circular saw on a dremel. Messy, but quick.
 
@@ -95,5 +95,5 @@ For the backing board to attach, I used the four mounting holes on the monitor a
 
 ![drillbrackets](/images/mm_backholes.jpg)
 
-
+## Software
 
