@@ -111,7 +111,12 @@ Back when bus travel was more normal, ([this](https://github.com/ryck/MMM-TFL-Ar
 
 #### Extra Bits
 
-![PIR](/images/mm_pir.gif){: .center-image }
+<details>
+  <summary>Click to expand!</summary>
+  
+![PIR](/images/mm_pir.gif)
+</details>
+
 
 For the PIR sensor and the fan, I wrote my own modules as I found the existing PIR module didn't seem to work particularly well.
 
