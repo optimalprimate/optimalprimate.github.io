@@ -109,3 +109,8 @@ For mine, I've used a mix of online and local services. For weather, I've used (
 
 Back when bus travel was more normal, ([this](https://github.com/ryck/MMM-TFL-Arrivals)) TFL module displays the next bus arrivals from a local stop very nicely.
 
+## Complete
+
+This was a fun project, and I learned a lot more about wood than silicon, but I know many others have just procured ready-made frames and made them fit monitors, so that would be an easier route for the less inclined. 
+
+![mm_final3](/images/mm_final2.jpg)
