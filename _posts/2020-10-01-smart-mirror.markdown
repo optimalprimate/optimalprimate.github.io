@@ -117,7 +117,7 @@ For the PIR sensor and the fan, I wrote my own modules as I found the existing P
 
 For motion sensing, the PIR is a standard HC-SR501, which is good as it can run off the 3.3V pin on the Pi with no worry of the returning data stream somehow having a 5V signal and overloading (although the datasheet states output is at 3.3V anyway).
 
-I wrote a ([simple python script](https://github.com/optimalprimate/magicmirror/blob/main/pir_detect_HDMIcontrol.py)) that polls the PIR and if motion is detected, issues a command to stop transmitting over HDMI (this turns the monitor off via its powersave function). This command is:
+I wrote a ([simple python script](https://github.com/optimalprimate/magicmirror/blob/main/pir_detect_HDMIcontrol.py)) that polls the PIR and if motion is detected, issues a command to stop transmitting over HDMI (this turns the monitor off via its powersave function). From a python call, this command is:
 
 `call(["/usr/bin/vcgencmd", "display_power", "0"])`
 
@@ -125,7 +125,7 @@ Which is useful if you want to buil anything that will turn the screen off/on - 
 
 The cooling fan would draw too much current off the Pi's 5V pin, so I gave it power straight from the 5V output of the transformer and used an NPN transistor to turn it on and off with the Pi.
 
-A useful Raspberry Pi command for grabbing the current CPU temperature is:
+A useful Raspberry Pi command for grabbing the current CPU temperature in a python script is:
 
 `open("/sys/class/thermal/thermal_zone0/temp", "r")`
 
