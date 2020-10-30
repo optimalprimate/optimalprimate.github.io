@@ -79,6 +79,9 @@ I first drilled a hole on the underside of the mirror for PIR (so it's your legs
 
 ![PIR_FANholes](/images/mm_drill.jpg)
 
+The PIR sensor in place:
+![PIR_inplace](/images/mm_pirset.jpg)
+
 I also needed to power the whole thing. The monitor obviously takes mains voltage and I decided I didn't want a separate power cable running up to the mirror carrying the 5V the Pi needs. So I found a transformer for the job that would fit in the monitor cut outs. I went for a 5V 2A output, which isn't ideal for the Pi3B (RaspberryPi.org states is should have 2.5A+), but since I had no real peripherals to power, I hoped it would do. Also the 3A transformer was too thick to fit, so no choice really.
 
 I used quick connecters to splice into the monitor's power cable - **don't play with mains voltage if you don't know what you're doing**.
