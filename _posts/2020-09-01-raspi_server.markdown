@@ -63,7 +63,13 @@ Once wired and soldered on some prototype board, the controller was ready to be 
 
 The LED strip uses the WS2812 controller with 5050 RGB LEDs. What does this mean? It means each LED is individually addressable, so you can do some fun things with the leds whereby any one can be any colour. I mainly wanted this so I could light different parts of the enclosure in different colours.
 
+<details>
+  <summary>**Expand to see LEDs**</summary>
+  
 ![LED_strip](/images/led_strip.gif)
+</details>
+
+
 
 Finally, I flashed my Arduino code ([code](https://github.com/optimalprimate/raspi_ammobox_server/blob/main/Server_ammoBox_OTA_LEDs.ino)) to the ESP8266 fan controller. I could have hardcoded it to automatically start the fans when the temperature sensor onboard went above a certain level, but decided instead to control it via the home automation server actually running on the Pi. 
 
