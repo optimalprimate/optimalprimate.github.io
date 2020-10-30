@@ -111,6 +111,8 @@ Back when bus travel was more normal, ([this](https://github.com/ryck/MMM-TFL-Ar
 
 #### Extra Bits
 
+![PIR](/images/mm_pir.gif){: .center-image }
+
 For the PIR sensor and the fan, I wrote my own modules as I found the existing PIR module didn't seem to work particularly well.
 
 For motion sensing, the PIR is a standard HC-SR501, which is good as it can run off the 3.3V pin on the Pi with no worry of the returning data stream somehow having a 5V signal and overloading (although the datasheet states output is at 3.3V anyway).
