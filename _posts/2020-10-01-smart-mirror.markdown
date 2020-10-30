@@ -7,7 +7,7 @@ categories: projects
 # A nicer way for data display
 I first came across the Magic Mirror project years ago, where people were posting all kinds of these 'smart mirrors' online and fancied the idea, but didn't have much data to populate it with until recently. With the advent of my home automation network, I now have nodes gathering thousands of datapoints for temperature, lights, power, motion events, etc. This seemed the time to build the mirror to display some of this data, along with online sources (calendars, news, weather, etc.).
 
-//IMAGE FINAL//
+![mm_final](/images/mm_final_nd.jpg)
 
 # Parts used
 - Raspberry Pi 3B+
@@ -96,4 +96,16 @@ For the backing board to attach, I used the four mounting holes on the monitor a
 ![drillbrackets](/images/mm_backholes.jpg)
 
 ## Software
+
+The software is based on the excellent MagicMirror Electron-based project you can find ([here](https://github.com/MichMich/MagicMirror)).
+
+The installation instructions are well detailed and as straightforward as copying a dozen commands into the Pi's command line.
+
+Once runnnig, the PM2 process manager can be used to autostart the mirror and from there, the system runs without intervention.
+
+To add modules (and there are many!), it's a simple git pull and update of the config file.
+
+For mine, I've used a mix of online and local services. For weather, I've used ([this]()) and for the calendar, ([this]()). More interestingly for displaying data from my home server, there's a really nice Grafana plugin ([here](https://github.com/SvenSommer/MMM-GrafanaChart)) and this ([MQTT module](https://github.com/ottopaulsen/MMM-MQTT)) is very nice and streamlined for displaying data gathered from the network with my Node-Red instance pushing messages via the MQTT broker. This allows pushing of any data, I'm using indoor and outdoor temperatures and current electricity usage.
+
+Back when bus travel was more normal, ([this](https://github.com/ryck/MMM-TFL-Arrivals)) TFL module displays the next bus arrivals from a local stop very nicely.
 
