@@ -117,7 +117,7 @@ Back when bus travel was more normal, ([this](https://github.com/ryck/MMM-TFL-Ar
 <details>
   <summary>**Expand to see the PIR in action**</summary>
   
-![PIR](/images/mm_pir.gif)
+<img src="/images/mm_pir.gif">
 </details>
 
 
