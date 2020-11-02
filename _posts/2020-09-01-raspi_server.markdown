@@ -66,7 +66,7 @@ The LED strip uses the WS2812 controller with 5050 RGB LEDs. What does this mean
 <details>
   <summary>**Expand to see LEDs**</summary>
   
-![LED_strip](/images/led_strip.gif)
+<img src="/images/led_strip.gif">
 </details>
 
 
