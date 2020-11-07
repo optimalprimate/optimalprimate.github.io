@@ -117,7 +117,7 @@ The messages are received to two different MQTT topics in Node Red.
 
 For electricity, a basic calculation was made to turn my energy provider's cost in pence/kWh into pence/W1.5s. This can then be multiplied to provide the current cost of use and is cumulatively summed over the day to provide a 'cost so far today' as well as a projected 'cost/month'.
 
-![pm_nodered_energystats](/images/pm_nodred.jpg)
+![pm_nodered_energystats](/images/pm_nodered.jpg)
 
 For gas, the message triggers a `+0.01` to a stored variable for the current gas meter. I can check that this tallies with the meter itself and so essentially just digitises the meter reading. This can then be extrapolated into daily and monthly costs like the electricity.
 
