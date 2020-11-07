@@ -12,6 +12,8 @@ categories: projects
 
 # Monitoring energy usage in real time.
 
+![pm_energy_meter](pm_header.jpg)
+
 So in the UK, there is a scheme to roll out 'smart meters' to every home that will provide electricity and gas usage over the air to some device that sits on your kitchen counter (as well as to the energy provider). There have been many hold-ups as well as some hardware issues. So I decided to build my own and plug it into the home network.
 
 
