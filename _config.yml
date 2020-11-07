@@ -33,13 +33,8 @@ plugins:
   - jekyll-feed
 
   # Google Analytics
-google_analytics: G-2HNX0MG4KH
+google_analytics: UA-181817601-1
 
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-2HNX0MG4KH"
-    anonymize_ip: false # default
 
 # Exclude from processing.
 # The following items will not be processed, by default.
