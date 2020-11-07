@@ -65,7 +65,7 @@ Turns out, you can't stain the edges of plywood, as the layers that are running 
 
 Finally, I cut a backing board (I spray painted the edges black as was too impatient to stain) and the frame was pretty much done.
 
-![frame_complete](/images/frame_comp.jpg)
+![frame_complete](/images/mm_frame_comp.jpg)
 
 ## The Backend
 
