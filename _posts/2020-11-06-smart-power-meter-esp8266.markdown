@@ -1,4 +1,4 @@
-\---
+---
 
 layout: post
 
@@ -8,15 +8,15 @@ date:  2020-09-01 20:31:36 +0100
 
 categories: projects
 
-\---
+---
 
-#Monitoring energy usage in real time.
+# Monitoring energy usage in real time.
 
 So in the UK, there is a scheme to roll out 'smart meters' to every home that will provide electricity and gas usage over the air to some device that sits on your kitchen counter (as well as to the energy provider). There have been many hold-ups as well as some hardware issues. So I decided to build my own and plug it into the home network.
 
 
 
-##Parts
+## Parts
 
 I used the following for this build:
 
@@ -30,7 +30,7 @@ I used the following for this build:
 
 
 
-##Electricity
+## Electricity
 
 
 
@@ -52,7 +52,7 @@ The data is essentially live use in watts. Or rather the current in amps, but mu
 
 
 
-##Gas
+## Gas
 
 So we can just use a clip-on gas flow sensor just like we did for electricity, right? 
 
@@ -82,7 +82,7 @@ So here were my so far separate energy monitoring ESPs:
 
 
 
-##Assembly
+## Assembly
 
 I found these small 55x35x15mm enclosures on eBay for about 50p a piece recently and thought it would be clever to try and fit the Wemos ESP board in with some prototyping board and solder all the components as close together as possible. Was a little challenging, but managing to compress it all to fit in the end. I did need to use a hot screwdriver to melt one side's hole a bit wider to fit the microUSB plug (although I could've just cut the plug off and soldered the 5V and Ground lines straight to the board).
 
@@ -94,7 +94,7 @@ Finally, to get the optical sensor to stay in the right place, I cut a bit of pl
 
 
 
-##Code
+## Code
 
 The code is [here](https://github.com/optimalprimate/esp8266-smart-meter/blob/main/ESP8266_PowerMeter.ino).
 
@@ -111,7 +111,7 @@ Finally, the payloads of the messages are made up of:
 
 
 
-##Node Red
+## Node Red
 
 The messages are received to two different MQTT topics in Node Red. 
 
