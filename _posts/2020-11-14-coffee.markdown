@@ -97,7 +97,7 @@ I apply shrink wrap to the thermocouple and relay wires to make a single cable t
 
 ## Coding
 
-![breadboard](/images/esp_breadboard.jpg)![coding](/images/esp_testing.jpg)
+![coding](/images/esp_coding.jpg)
 
 I've put the code [here](https://github.com/optimalprimate/coffee-pid/blob/main/Coffee_PID_and_Manual.ino). 
 
