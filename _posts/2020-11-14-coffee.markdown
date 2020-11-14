@@ -17,7 +17,7 @@ After the lockdown started, and my choice of coffee shops became severely limite
 
 I made a video of my basic routine with it here:
 
- [![Coffee Routine Video(https://img.youtube.com/vi/yxev1ShIvpU/0.jpg)](https://youtu.be/yxev1ShIvpU).
+ [![Coffee Routine Video](https://img.youtube.com/vi/yxev1ShIvpU/0.jpg)](https://youtu.be/yxev1ShIvpU).
 
 While regarded as one of the best in its price range, the Silvia has a significant issue with making consistently good coffee - its temperature control is highly variable. This has led to many people fitting 3rd party PID devices, a sort of complex, learning thermostat I'll explain later. These work well but are pricey, at least £100, so I went to see what I could do with a microcontroller and a relay.
 
