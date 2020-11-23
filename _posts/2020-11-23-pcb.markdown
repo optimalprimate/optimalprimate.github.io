@@ -2,7 +2,7 @@
 
 layout: post
 
-title: "Reducing Repeition - my first PCB"
+title: "Reducing Repetition - my first PCB"
 
 date:  2020-11-23 20:31:36 +0100
 
