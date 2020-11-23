@@ -9,7 +9,7 @@ date:  2020-11-23 20:31:36 +0100
 categories: projects
 
 ---
-# A PCB, a printed circuit board, is surprisingly easy to get.
+# A custom PCB, a printed circuit board, is surprisingly sraightforward to obtain.
 
 ![pcb_header](/images/pcb_2.jpeg)
 
@@ -19,7 +19,7 @@ Some of these are unique, like the [power meter](https://optimalprimate.github.i
 
 My recent 'nodes' were constructed of prototype boards, 30AWG wire and lots of solder.
 
-![pcb_old](/images/pcb_manual)
+![pcb_old](/images/pcb_manual.jpg)
 
 As I was always adding the same initial sensors, I followed the excellent sparkfun tutorial [here](https://learn.sparkfun.com/tutorials/using-eagle-board-layout/all) to download Eagle (free software) and started playing with PCB design.
 
@@ -49,12 +49,12 @@ I soldered the parts I wanted and uploaded a basic [code](https://github.com/opt
 
 (For actual home automation and not just a local sensor, this would also include all the Wifi and MQTT pubsub code too).
 
-![pcb_soldered](images/pcb_3.jpeg)
+![pcb_soldered](/images/pcb_3.jpeg)
 
 You can see the code in action here:
 
 <details>
-  <summary>**PCB gif**</summary>
+  <summary>PCB gif</summary>
   
 <img src="/images/pcb.gif">
 </details>
