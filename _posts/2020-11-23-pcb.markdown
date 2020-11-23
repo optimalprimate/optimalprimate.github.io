@@ -11,7 +11,7 @@ categories: projects
 ---
 # A custom PCB, a printed circuit board, is surprisingly sraightforward to obtain.
 
-![pcb_header](/images/pcb_2.jpeg)
+![pcb_header](/images/pcb_3.jpeg)
 
 As my home automation network slowly grows, I started to find building similar nodes for each room quite repetitive. By node, I mean one Wifi-enabled unit consisting of a microprocessor (all ESP8266s in this case) and an array of sensors.
 
@@ -49,7 +49,7 @@ I soldered the parts I wanted and uploaded a basic [code](https://github.com/opt
 
 (For actual home automation and not just a local sensor, this would also include all the Wifi and MQTT pubsub code too).
 
-![pcb_soldered](/images/pcb_3.jpeg)
+![pcb_soldered](/images/pcb_2.jpeg)
 
 You can see the code in action here:
 
