@@ -19,6 +19,7 @@ I've put the codes in a table [here](ttps://github.com/optimalprimate/Eufy_11S_v
 I then soldered an IR LED with an NPN transistor (as the current drawn from the IR LED is a little high for the pins of the ESP8266) to an existing ESP8266 'node' that was in the kitchen where the vacuum's charger is located. The nice thing about high-powered (5V) IR LEDs is that it doesn't really matter where they are in the room - the signal just bounces around and finds its target. 
 
 ![vac_pinout](/images/vac_schematic.jpg)
+_ESP8266 in a Wemos D1 board with the NPN 2N2222 and an 880nm 5V IR LED_
 
 A simple command from the [IRremote library](https://www.arduinolibraries.info/libraries/i-rremote-esp8266), IRsend, can then send the relevant code from the ESP8266 and this is then interfaced with the rest of the system via MQTT messaging over the WiFi network.
 
@@ -31,8 +32,6 @@ I put a routine into Google so if I say 'clean up' it cleans and 'recharge' tell
   
 <img src="/images/vac_remote.gif">
 </details>
-
-![vac_remote](
 
 _This is a mobile screen capture showing the remote camera above and the Node-Red dashboard below, tapping 'vac-auto' triggers the cleaner to slide out from under the sideboard and start cleaning_
 
