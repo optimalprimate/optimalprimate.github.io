@@ -2,6 +2,8 @@
 
 A few months ago I acquired a Eufy Robot Vacuum 11S cleaner when on offer. It's just a low profile 'robot' that wonders around aimlessly cleaning controlled via a remote control. Not being WiFi- connected nor app-controlled seemed to bring the price down substantially. As well as an opportunity to not stream personal data across the world.
 
+![Eufy Vac](/images/vac_eufy.PNG)
+
 The only issue is that while feeling very futuristic, the device responds only to its remote, and I wanted something a little more automatic as well as 'unlosable'. So I set about incorporating it into my home automation network - including the Google home voice assistant.
 
 I started by identifying the remote control as infrared (as opposed to RF) by simply observing the large, darkened transparent plastic head.
@@ -14,7 +16,7 @@ These are essentially a series of numbers that represent the millisecond timings
 
 _(this is just the command for turning it on)_
 
-I've put the codes in a table [here](ttps://github.com/optimalprimate/Eufy_11S_vacuum_automation/blob/main/IR%20Codes) if anyone wanted them for future reference.
+I've put the codes in a table [here](https://github.com/optimalprimate/Eufy_11S_vacuum_automation/blob/main/IR%20Codes) if anyone wanted them for future reference.
 
 I then soldered an IR LED with an NPN transistor (as the current drawn from the IR LED is a little high for the pins of the ESP8266) to an existing ESP8266 'node' that was in the kitchen where the vacuum's charger is located. The nice thing about high-powered (5V) IR LEDs is that it doesn't really matter where they are in the room - the signal just bounces around and finds its target. 
 
