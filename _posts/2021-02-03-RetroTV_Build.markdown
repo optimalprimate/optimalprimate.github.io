@@ -4,7 +4,7 @@ layout: post
 
 title: "Building a Functional 1950s Retro TV"
 
-date:  2021-02-04 20:31:36 +0100
+date:  2021-02-03 20:31:36 +0100
 
 categories: projects
 
