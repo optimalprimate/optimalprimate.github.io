@@ -35,7 +35,7 @@ For the most part, [9mm hardwood plywood](https://www.diy.com/departments/hardwo
 
 ### Frame
 
-The side panels were first cut with a jigsaw and the ends bevel cut at 45º, the same process used to build the [smart mirror]([https://optimalprimate.github.io/projects/2020/10/01/smart-mirror.html](smart mirror)) casing. 
+The side panels were first cut with a jigsaw and the ends bevel cut at 45º, the same process used to build the [smart mirror]([https://optimalprimate.github.io/projects/2020/10/01/smart-mirror.html] casing. 
 
 As the plywood was quite warped/bowed, a light spray of water on the concave side and a press down for an hour was needed to flatten the boards out.
 
@@ -53,7 +53,7 @@ For the white curved border, an elliptical shape was measured out on the hardboa
 
 ![retroTV_cutout](/images/retrotv_cutout.jpg)
 
-A dremel with a routing bit allowed be to carve out a fairly rough groove along the insides of the frame into which the hardboard cutout would slide. 
+A dremel with a routing bit was used to carve out a fairly rough groove along the insides of the frame into which the hardboard cutout would slide. 
 
 ### Shelf
 
@@ -89,7 +89,7 @@ The TV could then be placed inside, with a few scrap pieces of wood to hold it i
 
 ### Speaker Panel
 
-The speaker panel was cut to fit the space below the TV, with two large rectangular holes for sound, with small holes drilled for the rotary encoders to push through for volume and power controls. The upholstery material could then be stapled taught. Finally, the rotary encoders were glued into place with their spindles emerging through the front where the knobs screwed in place.
+The speaker panel was cut to fit the space below the TV, with two large rectangular holes for sound, with small holes drilled for the rotary encoders to push through for volume and power controls. The upholstery material could then be stapled taught. Finally, the rotary encoders were glued into place with their shafts emerging through the front where the knobs screwed in place.
 
 ![retroTV_speaker](/images/retrotv_knobs.jpg)
 
@@ -222,6 +222,9 @@ Despite polling the rotary encoders only at the speed of the ESP8266 loops, the 
 <br><img src="/images/retrotv_power.gif">
 </details>
 
+
+
+## Closing
 
 The final result came out pretty well, and with the inbuilt Chromecast, it's simple to stream content from phones/laptops, limiting TV functionality. The IR repeater also allows the original remote to function too. So it's basically a wooden box for a TV. Maybe it looks a bit better than black plastic on the wall.
 
