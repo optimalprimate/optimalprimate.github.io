@@ -11,7 +11,7 @@ categories: projects
 ---
 # TVs are ugly. They used to be less so. Enter: Retro TV Build
 
-![retroTV_final](images/retrotv_final1.jpg)
+![retroTV_final](/images/retrotv_final1.jpg)
 
 At some point between the advent of plastics and the consumer-availability of televisions (circa 1950s), there was a union of woodwork, textiles and electronics to create pieces to look at home in buyers' houses. I wanted a small TV for the kitchen/dining room, so decided to 'skin' one with some basic wood panelling and a few extras. 
 
@@ -215,11 +215,11 @@ Despite polling the rotary encoders only at the speed of the ESP8266 loops, the 
 
 <details>
   <summary><b>*Click to see rotary dial function*</b></summary>
-Volume Control: 
-<img src="/images/retrotv_volume1.gif">
-<img src="/images/retrotv_volume2.gif">
-Power Control:
-<img src="/images/retrotv_power.gif">
+<br>Volume Control: 
+<br><img src="/images/retrotv_volume1.gif">
+<br><img src="/images/retrotv_volume2.gif">
+<br>Power Control:
+<br><img src="/images/retrotv_power.gif">
 </details>
 
 
