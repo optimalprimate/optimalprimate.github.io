@@ -27,7 +27,7 @@ A Google Image search of _1950s television sets_ provided inspiration and I sett
 
 A 'blow-up' of the required parts:
 
-![retroTV_plan2](/images/retrotv_ plan2.jpg)
+![retroTV_plan2](/images/retrotv_plan2.jpg)
 
 For the most part, [9mm hardwood plywood](https://www.diy.com/departments/hardwood-plywood-board-l-2-44m-w-1-22m-t-9mm/1696252_BQ.prd) was used - strong, cheap and easy to work with. For the white bezel, [3mm white hardboard](https://www.diy.com/departments/white-hardboard-l-1-22m-w-0-61m-t-3mm/1696245_BQ.prd) was good as it already has a smooth, white finish. White acrylic was considered, but it would be a nightmare to cut the curves smoothly. For the speaker section, some burlap material from eBay was first tried, but this was too loosely woven so a brown linen weave for upholstery was used instead.
 
