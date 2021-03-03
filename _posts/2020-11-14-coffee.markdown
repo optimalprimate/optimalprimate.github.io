@@ -77,7 +77,7 @@ The relay essentially bridges the electrical gap where the thermostat originally
 
 I used a simple digital output to set the relay value and the thermocouple signal comes in via serial interface. A really basic thermostat could now be coded:
 
-``temperature = read.temp;`
+`temperature = read.temp;`
 
 `if (temperature < 93){`
 
