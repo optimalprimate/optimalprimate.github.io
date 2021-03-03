@@ -63,6 +63,10 @@ For a coffee machine, this translates to three simple components:
 
 Attaching the components is straightforward enough, but as always, **don't play with mains voltage if you do not know what you are doing.** The coffee machine runs on the full 230V, no low voltage transformers here.
 
+The wiring is as follows:
+![esp_silvia_wiring](/images/esp_coffee_wiring.png)
+
+
 First, I needed the thermocouple to be as close to the boiler as possible to get an accurate temperature. I used one of the screw holes from the original limpet thermostat on the boiler to hold the tip in place, while spreading on some thermal paste to 'unite' boiler brass and thermocouple housing. 
 
 ![thermocouple_position](/images/esp_thermocouple.jpg)_The thermocouple in place with lots of thermal compound_
