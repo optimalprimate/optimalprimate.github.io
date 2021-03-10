@@ -96,7 +96,7 @@ I sprayed the wooden parts black, thinking that would somehow make it look neate
 
 This is a theory I have around why an ESP8266 in ideal for small servos, over an Arduino like the Uno:
 
-So if you take something like an Arduino Uno and hook up a servo to its 5V, GRND and a digital pin, you should a really easy motorised system, right? Well you'd almost certainly have something called *servo jitter* and may not have enough current for the motor. The Arduino series typically have a voltage regulator feeding the 5V pin (even if you're powering it off a 5V USB supply), so there's a maximum current draw of 40mA, which is super low for motor. 
+So if you take something like an Arduino Uno and hook up a servo to its 5V, GRND and a digital pin, you should have a really easy motorised system, right? Well you'd almost certainly have something called *servo jitter* and may not have enough current for the motor. The Arduino series typically have a voltage regulator feeding the 5V pin (even if you're powering it off a 5V USB supply), so there's a maximum current draw of 40mA, which is super low for motor. 
 
 However, the great thing about using an ESP8266 in a board like the Wemos D1 (or NodeMCU, or similar clone) is that the 5V pin is coming _directly from the USB power supply_. This means that if you have a 5V 2A supply (standard phone charger), you pull the ~150mA needed to power the board itself, leaving a huge 1.85A available through the 5V pin. This means you can power motors, LED strips, etc. all with just the single power supply. 
 
@@ -140,6 +140,8 @@ void callback(char* topic, byte* payload, unsigned int length) {
 There's also the standard Adafruit library for running the OLED which gets the current temperature from the server, and there are buttons wired in a debounced to manually change temperature on the thermostat itself. As the ESP8266 is enclosed, adding the OTA code for Over-the-Air updates was also necessary for any future code changes.
 
 The Node-Red implementation also has NORA running, so it appears as a thermostat in Google Home and can be adjusted from there too.
+
+Along with the previous addition of [automating the Eufy vacuum](https://optimalprimate.github.io/2020/12/27/smarter-vacuum-robots.html) and the [Silvia coffee machine](https://optimalprimate.github.io/projects/2020/11/14/coffee.html), I'm slowly moving forward with automation of non-smart appliances... 
 
 
 ![final_thermostat](/images/thermo_3.jpg)
