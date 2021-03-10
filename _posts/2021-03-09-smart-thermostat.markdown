@@ -10,9 +10,8 @@ categories: projects
 
 ---
 
-# DIY Smart Thermostat
+# I want smart heating. I rent a flat so adapted what was there.
 
-## I want smart heating. I rent a flat so adapted what was there.
 
 ![final_thermostat](/images/thermo_6.jpg)
 
@@ -60,6 +59,7 @@ I added some code to send pre-determined servo positions via the dashboard UI in
 </details>
 
 
+
 ### Wiring
 
 After testing, I soldered an OLED, 2 buttons and the ESP8266 (basically an Arduino with Wifi - the brains of the thing) to some perf board as small as possible so I could fold it into a neater formfactor within a small enclosure I had (the same as those used in the [smart energy meter project](https://optimalprimate.github.io/projects/2020/11/06/smart-power-meter.html)).
@@ -90,6 +90,8 @@ I sprayed the wooden parts black, thinking that would somehow make it look neate
 <br><img src="/images/thermo_phone3.gif">
 </details>
 
+
+
 #### A quick note on powering servos with arduinos/microcontrollers
 
 This is a theory I have around why an ESP8266 in ideal for small servos, over an Arduino like the Uno:
@@ -97,6 +99,7 @@ This is a theory I have around why an ESP8266 in ideal for small servos, over an
 So if you take something like an Arduino Uno and hook up a servo to its 5V, GRND and a digital pin, you should a really easy motorised system, right? Well you'd almost certainly have something called *servo jitter* and may not have enough current for the motor. The Arduino series typically have a voltage regulator feeding the 5V pin (even if you're powering it off a 5V USB supply), so there's a maximum current draw of 40mA, which is super low for motor. 
 
 However, the great thing about using an ESP8266 in a board like the Wemos D1 (or NodeMCU, or similar clone) is that the 5V pin is coming _directly from the USB power supply_. This means that if you have a 5V 2A supply (standard phone charger), you pull the ~150mA needed to power the board itself, leaving a huge 1.85A available through the 5V pin. This means you can power motors, LED strips, etc. all with just the single power supply. 
+
 
 ### Code
 
@@ -110,6 +113,7 @@ The other bit of fiddling was to get accurate motor positions when moving in sev
   <summary><b>*You can see this 'reset' movement in this clip*</b></summary> 
 <br><img src="/images/thermo_phone3.gif">
 </details>
+
 
 The callback code (the message receiving code on the ESP) takes the servo value and sends it to the motor, and then converts the value back in to temperature (the 48/9+15 part) to display on the OLED:
 
