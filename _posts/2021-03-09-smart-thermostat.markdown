@@ -4,7 +4,7 @@ layout: post
 
 title: "Making a Thermostat Smart"
 
-date:  2020-03-09 20:31:36 +0100
+date:  2021-03-09 20:31:36 +0100
 
 categories: projects
 
