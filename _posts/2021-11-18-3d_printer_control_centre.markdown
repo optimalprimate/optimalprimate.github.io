@@ -71,7 +71,7 @@ As the contactless temperature sensor will need to be moved around to point at t
 
 Since it's being used on a printer, I knocked up a case in Fusion360, mainly to protect it from resin splashes.
 
-![printed_box](/images/3d_CC_printedbox.jpg)
+![printed_box](/images/3d_CC_printedbox.JPG)
 
 ## Code
 
