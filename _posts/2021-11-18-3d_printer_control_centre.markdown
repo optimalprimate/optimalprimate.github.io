@@ -65,13 +65,13 @@ The temp sensor is I2C, so you can use any GPIO pins and configure them in the c
 
 I soldered the whole thing onto a small piece of perf board to keep the form as small as possible, with an antenna attached to the RF Transmitter.
 
-![raw_module](images/3d_CC_raw.jpg)
+![raw_module](/images/3d_CC_raw.jpg)
 
 As the contactless temperature sensor will need to be moved around to point at the resin, I added slightly longer wire to give it positionability.
 
 Since it's being used on a printer, I knocked up a case in Fusion360, mainly to protect it from resin splashes.
 
-![printed_box](3d_CC_printedbox.jpg)
+![printed_box](/images/3d_CC_printedbox.jpg)
 
 ## Code
 
@@ -89,23 +89,38 @@ I brought this into Node Red and knocked up a dashboard to control the camera an
 
 In order for the camera to focus close up, the focus needs to be adjusted by rotating the lens. My ESP-32-CAM board had a big glue blob holding the focus and I had to do a lot of scraping and twisting to get it free, but I've had other boards where you can break the seal with little force. 
 
-![camera_focus](images/3d_CC_camtune.gif)
+<details>
+  <summary>**Expand to see lens rotation**</summary>
+  
+<img src="/images/3d_CC_camtune.gif">
+</details>
 
 I also had to add a delay in the code so the flash was on for 300ms before the camera took an image, otherwise the ESP didn't seem to have time to correctly expose the image without blowing it out.
 
 You can see here a screen recording off my phone with the NodeRed controls/image at the top, with a video at the bottom of the ESP taking a picture with the flash.
 
-![in_action](images/3d_CC_cam_flash.gif)
+
+<details>
+  <summary>**Expand to see camera with flash in action**</summary>
+  
+<img src="/images/3d_CC_cam_flash.gif">
+</details>
 
 Finally, I added the option in the dashboard to save the images locally to convert to a timelapse if desired. The images aren't pretty, but you can see quickly if a print is failing or is even present on the buildplate.
 
-![timelapse](images/3d_CC_timelapse.gif)
+
+<details>
+  <summary>**Expand to see timelapse**</summary>
+  
+<img src="/images/3d_CC_timelapse.gif">
+</details>
+
 
 ## Temperature Monitoring
 
 In NodeRed, it's simple to output the temperature readings to a InfluxDB and plot them in Grafana. This adds a useful logging function of how temperatures can fluctuate. Interestingly, the photocuring of resin is exothermic, and so once the print has started, the heater is no longer needed and the temperature is self-sustaining.
 
-![grafana_plot](images/3d_CC_grafana.jpg)
+![grafana_plot](/images/3d_CC_grafana.jpg)
 
 It also straightforward in NodeRed to add a thermostat function, whereby if the temperature of the resin exceeds 27°C, the heater shuts off automatically. I also added a notification via Telegram to my phone if the ambient temperature exceeds 30°C in case the heater has failed to switch off.
 
