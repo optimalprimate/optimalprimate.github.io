@@ -55,7 +55,7 @@ In addition, I have an Amazon basics space heater and an old RF remote control p
 
 I should mention that there is an excellent opensource project called [OctoPrint](https://octoprint.org/) that uses a Raspberry Pi based system to monitor printing remotely and issue commands to the printer. However, at the time of writing, SLA printer support was a little lacking and I wanted to mostly learn how to interface with the ESP32-CAM and IR sensors.
 
-##Wiring & Assembly
+## Wiring & Assembly
 
 ![wiring](/images/3d_CC_wiring.jpg)
 
@@ -73,7 +73,7 @@ Since it's being used on a printer, I knocked up a case in Fusion360, mainly to 
 
 ![printed_box](3d_CC_printedbox.jpg)
 
-##Code
+## Code
 
 The code is available [here](https://github.com/optimalprimate/3d_printer_control_centre/blob/main/3Dprint_ESP32_CAM_Therm.ino).
 
@@ -85,7 +85,7 @@ There is a function for taking the picture that sets the flash LED pin high to s
 
 I brought this into Node Red and knocked up a dashboard to control the camera and heater, and to check the temperature readings.
 
-##Camera Tuning
+## Camera Tuning
 
 In order for the camera to focus close up, the focus needs to be adjusted by rotating the lens. My ESP-32-CAM board had a big glue blob holding the focus and I had to do a lot of scraping and twisting to get it free, but I've had other boards where you can break the seal with little force. 
 
@@ -101,7 +101,7 @@ Finally, I added the option in the dashboard to save the images locally to conve
 
 ![timelapse](images/3d_CC_timelapse.gif)
 
-##Temperature Monitoring
+## Temperature Monitoring
 
 In NodeRed, it's simple to output the temperature readings to a InfluxDB and plot them in Grafana. This adds a useful logging function of how temperatures can fluctuate. Interestingly, the photocuring of resin is exothermic, and so once the print has started, the heater is no longer needed and the temperature is self-sustaining.
 
