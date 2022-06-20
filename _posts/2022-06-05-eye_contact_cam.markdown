@@ -23,7 +23,7 @@ So first thing was to open up the camera and see how big the insides were to see
 
 Next, I started scribing acrylic, the same process as I used for the [smart mirror mirrored acrylic](https://optimalprimate.github.io/projects/2020/10/01/smart-mirror.html). I snapped off a 2cm strip and divided it into a 17cm piece for the main arm, and then the remaining 15cm I used to make the camera mount and stages.
 
-![cut_acylic]](/images/cam_cut_acrylic.jpg)
+![cut_acylic](/images/cam_cut_acrylic.jpg)
 
 I found the clip that these cameras use to grip the top of the monitor well made, with a stiff 2-hinged system and a bit of weight to it, securing the camera to any thickness of screen. This was better than I could build, so I cut the shroud off the hinges with a dremel (fitted with a metal EZ-cut disk as it was all I had).
 
