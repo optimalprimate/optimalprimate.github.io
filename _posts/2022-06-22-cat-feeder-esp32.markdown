@@ -15,9 +15,9 @@ categories: projects
 
 I recently discovered the 28BYJ series of stepper motor - they run on 5V, so no need for a 12V separate power supply (although they should be powered separately to the microcontroller) and they're remarkably good value (I bought a few for around £2/each).
 
-This led to me wanting to build a treat dispense for the cat, and it'd be cool if I could see the cat too, so I could use it remotely when out of the house.
+This led to me wanting to build a treat dispenser for the cat, and it'd be cool if I could see the cat too, so I could use it remotely when out of the house.
 
-I started thinking about a sort of Ferris-wheel approach, but after a casual look on Thingiverse, I actually found user 'CptPicard' had already made [a decent model](https://www.thingiverse.com/thing:3051036) of an Auger-based system with a hopper and 28BYJ motor mount complete.
+I started thinking about a sort of Ferris-wheel approach, but after a casual look on Thingiverse, I actually found user 'CptPicard' had already made [a decent model](https://www.thingiverse.com/thing:3051036) of an Auger-based system with a hopper and 28BYJ motor mount.
 
 So I decided to run it through the 3D printer and it came out looking pretty perfect, barring some sanding down of points where my supports had attached.
 
@@ -30,7 +30,7 @@ So I decided to run it through the 3D printer and it came out looking pretty per
 - 3D printed Auger/hopper/motor amount
 - Plywood & Hinges/Magnets
 
-##Circuit
+## Circuit
 
 ![cat_circuit](/images/cat_circuit.png)
 
@@ -41,13 +41,14 @@ If someone were to replicate this, you'd probably want a capacitor over the powe
 Here is the circuit hooked up with simple dupont wires ready to be inserted into the box.
 ![cat_circuit_assembly](/images/cat_circuit_assembly.jpg)
 
-This was a test run of the motor chucking out treats:  <details>
+This was a test run of the motor chucking out treats:  
+<details>
   <summary>**click here to show**</summary>
 
 <img src="/images/cat_poc.gif">
 </details>
 
-##Code
+## Code
 
 The code is uploaded [here](https://github.com/optimalprimate/cat_feeder).
 
@@ -70,9 +71,9 @@ My simple control dashboard:
 ![cat_ui](/images/cat_ui.jpg)
 
 
-##Build
+## Build
 
-I went with a basic 3mm plywood box, very roughly approximated on the table saw and then lumped together with hot glue. Not pretty, but does the job. Spray painted cat symbols may add some level of understanding what it's for. Not for the cat though.
+I went with a basic 3mm plywood box, very roughly approximated on the table saw and then lumped together with hot glue. Not pretty, but does the job. Dremel with a router bit made holes for the micro USB socket and the camera. Spray painted cat symbols may add some level of understanding what it's for. Not for the cat though.
 
 A few small hinges give the lid support...
 
@@ -84,6 +85,8 @@ A few small hinges give the lid support...
 
 The USB power bus was hotglued into the base, and the ESP32Cam glued in place at the front (I'm hoping if I re-purpose this, the glue just snaps off...)
 
+![cat_in_box](/images/cat_into_box.jpg)
+
 And here it is finally assembled.
 
 ![cat_final2](/images/cat_final2.jpg)
@@ -91,11 +94,11 @@ And here it is finally assembled.
 ![cat_final1](/images/cat_final1.jpg)
 
 
-And a GIF of it in action with the phone-controlled NodeRed page plus cat:
+And a GIF of it in action with the phone-controlled NodeRed page:
 <details>
   <summary>**Click Here to Expand**</summary>
 
 <img src="/images/cat_final_run.gif">
 
-<img src="/images/cat_final_open.gif">
+<img src="/images/cat_run_open.gif">
 </details>
